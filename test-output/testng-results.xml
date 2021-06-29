@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="98399" started-at="2021-06-29T14:32:35Z" finished-at="2021-06-29T14:34:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="98399" started-at="2021-06-29T14:32:35Z" finished-at="2021-06-29T14:34:13Z">
+      <class name="setup_execution.test_execution">
+        <test-method status="PASS" signature="setup()[pri:0, instance:setup_execution.test_execution@5f375618]" name="setup" is-config="true" duration-ms="5922" started-at="2021-06-29T20:32:29Z" finished-at="2021-06-29T20:32:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="gmail11SignIn()[pri:1, instance:setup_execution.test_execution@5f375618]" name="gmail11SignIn" duration-ms="22274" started-at="2021-06-29T20:32:35Z" finished-at="2021-06-29T20:32:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmail11SignIn -->
+        <test-method status="PASS" signature="gmail1SendMail()[pri:2, instance:setup_execution.test_execution@5f375618]" name="gmail1SendMail" duration-ms="16374" started-at="2021-06-29T20:32:57Z" finished-at="2021-06-29T20:33:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmail1SendMail -->
+        <test-method status="PASS" signature="gmail21SignIn()[pri:3, instance:setup_execution.test_execution@5f375618]" name="gmail21SignIn" duration-ms="30249" started-at="2021-06-29T20:33:13Z" finished-at="2021-06-29T20:33:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmail21SignIn -->
+        <test-method status="PASS" signature="gmail2ReceiveMail()[pri:4, instance:setup_execution.test_execution@5f375618]" name="gmail2ReceiveMail" duration-ms="9240" started-at="2021-06-29T20:33:44Z" finished-at="2021-06-29T20:33:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmail2ReceiveMail -->
+        <test-method status="PASS" signature="logoutFromAllGmailAcoounts()[pri:5, instance:setup_execution.test_execution@5f375618]" name="logoutFromAllGmailAcoounts" duration-ms="20232" started-at="2021-06-29T20:33:53Z" finished-at="2021-06-29T20:34:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromAllGmailAcoounts -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:setup_execution.test_execution@5f375618]" name="tearDown" is-config="true" duration-ms="531" started-at="2021-06-29T20:34:13Z" finished-at="2021-06-29T20:34:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- setup_execution.test_execution -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
